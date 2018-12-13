@@ -2,7 +2,7 @@
 
 # Flutter
 
-> Flutter使用笔记
+> Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。
 
 > **勿浅尝辄止**
 
