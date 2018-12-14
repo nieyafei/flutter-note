@@ -88,6 +88,12 @@
   - ## platform
   > TargetPlatform类型，Widget需要适配的目标类型。
 
+  - ## primarySwatch
+
+  > 主题样式配置：
+  Colors: `transparent`、`black`、`black87`、`black54`、`black45`、`black38`、`black26`、`black12`、`white`、`white70`、`white54`、`white30`、`white24`、`white12`、`white10`
+  > MaterialColor: `red`、`pink`、`purple`、`deepPurple`、`indigo`、`blue`、`lightBlue`、`cyan`、`teal`、`green`、`lightGreen`、`lime`、`yellow`、`amber`、`orange`、`deepOrange`、`brown`、`grey`、`blueGrey`、``、``、``、``、``
+
   - ## primaryColor
   > Color类型，App主要部分的背景色（ToolBar,Tabbar等）。
 
