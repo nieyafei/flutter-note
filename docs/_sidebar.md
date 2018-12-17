@@ -1,4 +1,5 @@
 * Flutter基础
+  - [常用命令](flutter/command.md)
   - [pubspec.yaml文件的配置](flutter/pubspec.md)
   - [Theme](flutter/theme.md)
   

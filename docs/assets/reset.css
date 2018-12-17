@@ -1,4 +1,17 @@
 @import 'iconfont/iconfont.css';
+.markdown-section table{
+    display: table;
+}
+.markdown-section table th{
+    background: #0091EA;
+    color: #fff;
+    border-color: #0091EA;
+    border-right-color: #fff; 
+}
+
+.markdown-section table th:last-child{
+    border-right-color: #0091EA; 
+}
 
 .gt-container .gt-btn{
     background-color: #0091EA;
