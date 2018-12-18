@@ -34,32 +34,32 @@ class MyApp extends StatelessWidget{
 
 > 设置文本溢出
 
-> - clip：直接切断，剩下的文字就没有了
-> - ellipsis:在后边显示省略号，体验性较好
-> - fade: 溢出的部分会进行一个渐变消失的效果，当然是上线的渐变，不是左右渐变。
+> - **clip**：直接切断，剩下的文字就没有了
+> - **ellipsis**:在后边显示省略号，体验性较好
+> - **fade**: 溢出的部分会进行一个渐变消失的效果，当然是上线的渐变，不是左右渐变。
 
 - ## `style`
 
-> 设置Text样式
-> - background: 背景色
-> - color: 颜色
-> - debugLabel: 调试标记
-> - decoration: 添加上划线，下划线，删除线
-> - decorationColor: 划线的颜色
-> - decorationStyle: style可能控制画实线，虚线，两条线，点, 波浪线等
-> - fontFamily: 字体
-> - fontSize: 字大小
-> - fontStyle: 文本显示样式
-> - fontWeight: 字体粗重权重
-> - foreground: 文本的前景色，不能与color共同设置
-> - hashCode
-> - height: 行高
-> - inherit: true/false  是否继承默认样式
-> - letterSpacing: 单词之间的间距
-> - locale: 国际化
-> - shadows: 阴影
-> - textBaseline: 基线
-> - wordSpacing: 字母之间的间距
+> 设置Text样式, TextStyle:
+> - **background**: 背景色
+> - **color**: 颜色
+> - **debugLabel**: 调试标记
+> - **decoration**: 添加上划线，下划线，删除线
+> - **decorationColor**: 划线的颜色
+> - **decorationStyle**: style可能控制画实线，虚线，两条线，点, 波浪线等
+> - **fontFamily**: 字体
+> - **fontSize**: 字大小
+> - **fontStyle**: 文本显示样式
+> - **fontWeight**: 字体粗重权重
+> - **foreground**: 文本的前景色，不能与color共同设置
+> - **hashCode**
+> - **height**: 行高
+> - **inherit**: true/false  是否继承默认样式
+> - **letterSpacing**: 单词之间的间距
+> - **locale**: 国际化
+> - **shadows**: 阴影
+> - **textBaseline**: 基线
+> - **wordSpacing**: 字母之间的间距
 
 ```
 Text(
@@ -71,6 +71,47 @@ Text(
 )
 ```
 
+# RichText
 
+> 富文本Text，可以显示多种样式的text
+
+```
+RichText(
+  text: TextSpan(
+    text: 'Hello ',
+    style: DefaultTextStyle.of(context).style,
+    children: <TextSpan>[
+      TextSpan(text: 'bold', style: TextStyle(fontWeight: FontWeight.bold)),
+      TextSpan(text: ' world!'),
+    ],
+  ),
+)
+```
+
+# DefaultTextStyle
+
+> 文字样式，用于指定Text widget的文字样式
+
+```
+DefaultTextStyle({
+  @required TextStyle style, 
+  TextAlign textAlign, 
+  bool softWrap: true, 
+  TextOverflow overflow: TextOverflow.clip, 
+  int maxLines,
+})
+```
+
+**widget树中，文本的样式默认是可以被继承的，因此，如果在widget树的某一个节点处设置一个默认的文本样式，那么该节点的子树中所有文本都会默认使用这个样式，而DefaultTextStyle正是用于设置默认文本样式的**
+
+**参考：**
+
+[Flutter中文](https://book.flutterchina.club/chapter3/text.html)
+
+[Flutter: Text Class](https://docs.flutter.io/flutter/widgets/Text-class.html)
+
+[Flutter: RichText](https://docs.flutter.io/flutter/widgets/RichText-class.html)
+
+[Flutter: DefaultTextStyle](https://docs.flutter.io/flutter/widgets/DefaultTextStyle-class.html)
 
 **欢迎大家一起补充**

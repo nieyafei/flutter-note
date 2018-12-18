@@ -2,6 +2,7 @@
 
 > 层叠布局和Web中的绝对定位、Android中的Frame布局是相似的, 允许子widget堆叠
 
+#### 属性：
 - ## `alignment`
 
 > 定如何去对齐没有定位（没有使用Positioned）或部分定位的子widget

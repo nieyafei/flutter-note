@@ -12,6 +12,8 @@ Positioned({
   double height
 })
 ```
+
+#### 属性：
 - ## `left`、`top` 、`right`、 `bottom`
 
 > 分别代表离Stack左、上、右、底四边的距离
