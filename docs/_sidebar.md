@@ -16,6 +16,7 @@
   - [Text](widget/text.md)
   - [按钮](widget/button.md)
   - [BottomNavigationBar尾部导航](widget/bottomBar.md)
+  - [AppBar头部导航](widget/appBar.md)
   
 * Dart开发语言
 
