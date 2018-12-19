@@ -2,8 +2,6 @@
   - [常用命令](flutter/command.md)
   - [pubspec.yaml文件的配置](flutter/pubspec.md)
   - [Theme](flutter/theme.md)
-  
-* Dart开发语言
 
 * Widget
   <!-- - [layout布局](widget/layout.md) -->
@@ -17,5 +15,8 @@
   - [Container](widget/container.md)
   - [Text](widget/text.md)
   - [按钮](widget/button.md)
+  - [BottomNavigationBar尾部导航](widget/bottomBar.md)
   
+* Dart开发语言
+
 * [社区和资源](resources.md)  
