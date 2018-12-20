@@ -34,3 +34,9 @@
 [Material Design 英文版](https://material.io/design/)
 
 [Flutter库集合网站](https://flutterawesome.com)
+
+[awesome-flutter](https://github.com/Solido/awesome-flutter)
+
+### charts
+
+[Google: charts](https://github.com/google/charts)
